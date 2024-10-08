@@ -54,9 +54,9 @@ ul.solarsystem li.active.earth .moon {
 ul.solarsystem li.sun {
     width: 40px;
     height: 40px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     background: #fc3;
     background-image: -webkit-gradient(
         linear,
