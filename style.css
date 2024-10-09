@@ -375,7 +375,7 @@ body {
   
   
   /* ------------------------------ animations --------------------------------- */
-  *{
+  
   @keyframes orbit {
     0% {
       transform: rotateZ(0deg); }
@@ -397,7 +397,7 @@ body {
     100% {
       transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); } }
 
-    }
+    
   
   /* ----------------------------------- 2D view ------------------------------*/
   .view-2D.zoom-large #sun {
