@@ -190,7 +190,7 @@ body {
       height: 100%;
       
       /* Centraliza o fundo na horizontal e desloca 40% para baixo na vertical */
-      background-position: center 30%;
+      background-position: center 40%;
       
       /* O fundo não será repetido */
       background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body {
       position: relative;
       
       /* A galáxia ocupará 100% da largura e altura da tela */
-      width: 100%;
+      width: 83%;
       height: 100%;
       
     }
