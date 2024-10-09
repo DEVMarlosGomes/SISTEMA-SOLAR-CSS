@@ -74,9 +74,9 @@ ul.solarsystem li.sun {
     top: 302px;
     left: 462px;
     border: none;
-    -webkit-box-shadow: 0 0 50px #c70;
-    -moz-box-shadow: 0 0 50px #c90;
-    box-shadow: 0 0 50px #c90;
+    -webkit-box-shadow: 0 0 50px rgb(252, 97, 0);
+    -moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgb(255, 140, 8);
     z-index: 100;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
@@ -89,6 +89,7 @@ ul.solarsystem li.sun span {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;   
+    box-shadow: white;
 }
 ul.solarsystem li.mercury {
     width: 100px;
@@ -295,6 +296,28 @@ ul.solarsystem li.pluto span {
     left: 79px;
 }
 
+ul#descriptions h2:hover+p {
+  visibility: visible;
+  opacity: 0.9;
+  left: -280px;
+}
+
+ul#descriptions h2:hover {
+  color: #c94e01; 
+   -webkit-transform: scale(1.08);
+   -moz-transform: scale(1.08);
+   -o-transform: scale(1.08);
+   transform: scale(1.08);
+}
+
+#sol :hover {
+  box-shadow: 0px 0px 50px rgb(255, 255, 255);
+  margin-top: -9px;
+  margin-right: -11px;
+  margin-bottom: -9px;
+  margin-left: -11px;
+}
+
 ul#descriptions {
     position: absolute;
     top: 150px;
@@ -317,8 +340,9 @@ ul#descriptions h2 {
     transform: scale(1);
 	margin-bottom: -15px;
 }
+
 ul#descriptions h2:hover {
-   color: #aa4200; 
+   color: #c94e01; 
     -webkit-transform: scale(1.08);
     -moz-transform: scale(1.08);
     -o-transform: scale(1.08);
